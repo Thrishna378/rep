@@ -1,1 +1,57 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">Meesho Dress Collections</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Discover the Latest Dress Collections</h1>
+    <p>Shop the best styles at affordable prices!</p>
+  </section>
+
+  <section class="product-grid">
+    <div class="product-card">
+      <img src="c:\Users\Thrishna\OneDrive\Documents\floral.jpg" alt="Dress 1">
+      <h3>Floral Maxi Dress</h3>
+      <p>₹999</p>
+      <button onclick="addToCart('Floral Maxi Dress', 999)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="c:\Users\Thrishna\OneDrive\Documents\casual.jpg" alt="Dress 2">
+      <h3>Casual Summer Dress</h3>
+      <p>₹799</p>
+      <button onclick="addToCart('Casual Summer Dress', 799)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="c:\Users\Thrishna\OneDrive\Documents\party.jpg" alt="Dress 3">
+      
+      <h3>Elegant Party Dress</h3>
+      <p>₹1,499</p>
+      <button onclick="addToCart('Elegant Party Dress', 1499)">Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Meesho Dress Collections. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
